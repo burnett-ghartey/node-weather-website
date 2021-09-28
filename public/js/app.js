@@ -1,5 +1,5 @@
 
-
+console.log('js file loaded!');
 
 
 const weatherForm = document.querySelector('form');
