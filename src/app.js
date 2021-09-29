@@ -91,14 +91,14 @@ app.get('/products', (req, res) => {
 
 app.get('/help/*', (req, res) => {
     res.render('404', {
-        name: 'Burnett Beckham',
+        name: 'Burnett Ghartey',
         errorMessage: 'Help article not found'
     })
 })
 
 app.get('*', (req, res) => {
     res.render('404', {
-        name: 'Burnett Beckham',
+        name: 'Burnett Ghartey',
         errorMessage: 'Page not found'
      
     })
