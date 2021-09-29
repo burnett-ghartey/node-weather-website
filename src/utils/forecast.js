@@ -8,7 +8,7 @@ const forecast = (latitude, longitude, callback) => {
         }else if(body.error){
             callback('unable to get weather data', undefined)
         }else{
-            callback('', `It is currently ${body.current.temperature} degrees out. There is ${body.current.feelslike}% chance of rain.`)
+            callback('', `It is currently ${body.current.temperature} degrees out. There is ${body.current.feelslike}% chance of rain. The humidity is ${body.current.humidity} and feelslike is ${body.current.feelslike}`)
         }
     })
 }
